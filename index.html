@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Academia Facil</title>
+  <title>Academia Fácil - Acesso Gympass e TotalPass</title>
 
   <!-- Google Tag Manager -->
   <script>
@@ -15,22 +15,49 @@
   </script>
   <!-- End Google Tag Manager -->
 
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+
   <style>
     body {
-      font-family: 'Arial', sans-serif;
-      text-align: center;
-      padding: 50px;
-     background: url('fundo2.png') no-repeat center center fixed;
-      background-size: cover;
+      font-family: 'Poppins', sans-serif;
+      margin: 0;
+      padding: 0;
+      background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
       color: white;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      padding: 40px 20px;
     }
 
-    .overlay {
-      background-color: rgba(0, 0, 0, 0.7);
-      padding: 50px;
+    .container {
+      background: rgba(0, 0, 0, 0.6);
+      padding: 40px;
       border-radius: 12px;
-      max-width: 600px;
-      margin: auto;
+      max-width: 700px;
+      width: 100%;
+      box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+    }
+
+    h1 {
+      font-size: 2em;
+      margin-bottom: 20px;
+    }
+
+    p {
+      font-size: 1.1em;
+      line-height: 1.6;
+      margin-bottom: 20px;
+    }
+
+    .step {
+      background-color: rgba(255, 255, 255, 0.1);
+      color: #fff;
+      padding: 15px;
+      border-radius: 8px;
+      margin: 10px 0;
+      text-align: left;
     }
 
     .whatsapp-button {
@@ -38,19 +65,20 @@
       background-color: #25D366;
       color: white;
       padding: 15px 30px;
-      font-size: 20px;
+      font-size: 18px;
       border-radius: 8px;
       text-decoration: none;
-      transition: background-color 0.3s ease;
-      margin-top: 20px;
+      margin-top: 25px;
+      transition: transform 0.2s ease;
     }
 
     .whatsapp-button:hover {
       background-color: #1ebd5a;
+      transform: scale(1.05);
     }
 
     footer {
-      margin-top: 60px;
+      margin-top: 50px;
       font-size: 14px;
       color: #ccc;
     }
@@ -58,11 +86,24 @@
     footer a {
       color: #9ac9ff;
       text-decoration: none;
-      margin: 0 10px;
     }
 
     footer a:hover {
       text-decoration: underline;
+    }
+
+    @media (max-width: 600px) {
+      .container {
+        padding: 30px 20px;
+      }
+
+      h1 {
+        font-size: 1.5em;
+      }
+
+      .step {
+        font-size: 0.95em;
+      }
     }
   </style>
 </head>
@@ -73,17 +114,55 @@
   height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   <!-- End Google Tag Manager (noscript) -->
 
-  <div class="overlay">
-    <h1>Tenha acesso as melhores academias perto de você</h1>
-    <p>Quer transformar seu corpo? Clique abaixo e fale com a gente no WhatsApp!</p>
-
-    <a
-      href="https://wa.me/5513988230999?text=Olá%2C%20quero%20mais%20informações%20sobre%20a%20academia"
-      class="whatsapp-button"
-      target="_blank"
-    >
-      Começar Agora.
+  <div class="container">
+    <h1>Quer Treinar em Academias Top Sem Estar em uma Empresa?</h1>
+    <p>Você sabia que é possível acessar academias como <strong>Smart Fit, Bluefit, Just Fit</strong> e muitas outras usando planos do <strong>Gympass</strong> e <strong>TotalPass</strong> mesmo sendo <strong>pessoa física</strong>?</p>
+    
+    <div class="step"><strong>✔ Etapa 1:</strong> Você nos chama no WhatsApp</div>
+    <div class="step"><strong>✔ Etapa 2:</strong> A gente verifica sua elegibilidade</div>
+    <div class="step"><strong>✔ Etapa 3:</strong> Você recebe o acesso em até 24h úteis</div>
+    
+    <p><strong>Sem contratos longos, sem vínculo com empresa, cadastro no seu cpf.</strong></p>
+    
+    <a href="https://wa.me/5513988230999?text=Olá,%20quero%20acessar%20o%20Gympass%20ou%20TotalPass%20como%20pessoa%20física" class="whatsapp-button" target="_blank">
+      💬 Quero Acessar Agora
     </a>
+
+    <!-- Depoimentos -->
+    <h2 style="margin-top: 50px;">💬 O que nossos clientes dizem:</h2>
+
+    <div class="step">
+      <p><strong>Marina S. – Santos/SP</strong><br>
+      “Nunca pensei que conseguiria usar o Gympass sem empresa. Atendimento rápido e acesso em menos de 1 dia!”</p>
+    </div>
+
+    <div class="step">
+      <p><strong>Lucas R. – São Paulo/SP</strong><br>
+      “Uso a Bluefit com TotalPass há 2 meses, tudo certinho. Recomendo pra quem quer fugir de contratos longos.”</p>
+    </div>
+
+    <div class="step">
+      <p><strong>Juliana M. – Curitiba/PR</strong><br>
+      “Achei que era golpe, mas é sério mesmo. Já treinei em 3 academias com o mesmo plano!”</p>
+    </div>
+
+    <!-- FAQ -->
+    <h2 style="margin-top: 50px;">❓ Dúvidas Frequentes:</h2>
+
+    <div class="step">
+      <p><strong>👉 Posso usar em qualquer academia?</strong><br>
+      O acesso é feito pela plataforma do Gympass ou TotalPass. Você verá as academias disponíveis na sua cidade dentro do app.</p>
+    </div>
+
+    <div class="step">
+      <p><strong>👉 Tem fidelidade ou multa?</strong><br>
+      Não! O plano é mensal, sem multa de cancelamento.</p>
+    </div>
+
+    <div class="step">
+      <p><strong>👉 Como é feito o pagamento?</strong><br>
+      Após falar conosco, você recebe um link de pagamento com suporte completo até ativar seu plano.</p>
+    </div>
   </div>
 
   <footer>
